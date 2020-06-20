@@ -57,6 +57,7 @@
     <title>注册</title>
     <!-- Custom styles for this template -->
     <link href="./css/login.css" rel="stylesheet">
+    <link href="./css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -96,7 +97,6 @@
                         <div class="input-group">
                             <input type="password" name="password" class="form-control" id="inputPassword" placeholder="密　码" value="<?php echo isset($_POST['password']) ? $_POST['password'] : ''; ?>">
                             <i class="fa fa-lock"></i>
-                            <a href="#" class="fa fa-question-circle"></a>
                         </div>
                         <span style="color:red;display: none;margin-left: 8px" class="tips"></span>
                         <span style="display: none;right: 5px!important;top: 2px;" class="glyphicon glyphicon-remove form-control-feedback"></span>

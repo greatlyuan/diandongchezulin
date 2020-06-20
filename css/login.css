@@ -33,7 +33,7 @@
     position: relative;
 }
 .form-horizontal .form-control{
-    background: #ccc;
+    background: transparent;
     /*/border: none;*/
     border-radius: 20px !important;
     box-shadow: none;
@@ -42,26 +42,26 @@
     transition: all 0.3s ease 0s;
 }
 .form-horizontal .form-control:focus{
-    background: #e0e0e0;
+    background: transparent;
     box-shadow: none;
     outline: 0 none;
 }
 .form-horizontal .form-group i{
     position: absolute;
     top: 12px;
-    left: 60px;
+    left: 20px;
     font-size: 17px;
-    color: #c8c8c8;
+    color: black;
     transition : all 0.5s ease 0s;
 }
 .form-horizontal .form-control:focus + i{
-    color: #00b4ef;
+    color: #ccc;
 }
 .form-horizontal .fa-question-circle{
     display: inline-block;
     position: absolute;
-    top: 12px;
-    right: 60px;
+    top: 10px;
+    right: 20px;
     font-size: 20px;
     color: #808080;
     transition: all 0.5s ease 0s;
